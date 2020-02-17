@@ -19,7 +19,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         auth.inMemoryAuthentication()
                 .withUser("buzz")
-                .password(encoder.encode("infinity"))
+                .password(encoder.encode("abcd"))
                 .authorities("ROLE_USER");
     }
 }
