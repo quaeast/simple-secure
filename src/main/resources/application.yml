@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://47.240.25.164:5432/testdb
+    username: postgres
+    password: fang
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
