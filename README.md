@@ -36,7 +36,7 @@ print(r.text)
 ```python
 import requests
 
-url = 'http:/localhost:8080/'
+url = 'http://localhost:8080/'
 author = ('fang', 'fang')
 r = requests.get(url=url, auth=author)
 print(r.status_code)

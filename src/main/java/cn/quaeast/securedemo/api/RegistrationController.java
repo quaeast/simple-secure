@@ -24,10 +24,11 @@ public class RegistrationController {
 
     @PostMapping(consumes="application/json")
     @ResponseStatus(HttpStatus.CREATED)
-    public void processRegistration(@RequestBody RegistrationForm form) {
+    public String processRegistration(@RequestBody RegistrationForm form) {
         System.out.println("-----------------ok");
         System.out.println(form.getUsername());
         System.out.println(form.getPassword());
         userRepository.save(form.toUser(passwordEncoder));
+        return "Registration Succeed";
     }
 }

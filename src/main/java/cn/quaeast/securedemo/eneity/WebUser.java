@@ -1,4 +1,4 @@
-package cn.quaeast.securedemo;
+package cn.quaeast.securedemo.eneity;
 
 import lombok.AccessLevel;
 import lombok.Data;

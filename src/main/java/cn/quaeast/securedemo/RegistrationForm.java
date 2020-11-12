@@ -1,5 +1,6 @@
 package cn.quaeast.securedemo;
 
+import cn.quaeast.securedemo.eneity.WebUser;
 import lombok.Data;
 import org.springframework.security.crypto.password.PasswordEncoder;
 

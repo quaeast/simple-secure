@@ -1,6 +1,6 @@
 package cn.quaeast.securedemo.security;
 
-import cn.quaeast.securedemo.WebUser;
+import cn.quaeast.securedemo.eneity.WebUser;
 import cn.quaeast.securedemo.data.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
